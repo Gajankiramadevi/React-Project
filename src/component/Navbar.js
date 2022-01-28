@@ -13,7 +13,7 @@ let Navbar=()=>{
             <ul className="right">
                 <li>
                     <Link to="/cart">
-                        <span className="shoppingCart"><i class="fas fa-cart-plus"></i>
+                        <span className="shoppingCart"><i className="fas fa-cart-plus"></i>
                         <span className="cartCount">{qty}</span>
                         </span>
                         </Link>

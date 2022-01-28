@@ -16,6 +16,9 @@ import shampoo from "../assets/shampoo.jpg"
 import Sweater from "../assets/Sweater.jpg"
 import waterbattle from "../assets/waterbattle.jpg"
 import Camera from "../assets/Camera.jpg"
+import teacup from "../assets/teacup.jpg"
+import skirt from "../assets/skirt.jpg"
+import hairdryer from "../assets/hairdryer.jpg"
 
 export const ProductsContext= createContext();
 const ProductsContrxtProvider=(props)=>{
@@ -36,10 +39,10 @@ const ProductsContrxtProvider=(props)=>{
         {id:14,name:'Shampoo',price:250,image:shampoo,status:'cool'},
         {id:15,name:'Sweater',price:650,image:Sweater,status:'new'},
         {id:16,name:'Water Battle',price:150,image:waterbattle,status:'hot'},
-        {id:17,name:'Laptop',price:45999,image:laptop,status:'cool'}
-       /* {id:18,name:'Jenes',price:450,image:jenes,status:'new'},
-        {id:19,name:'Jenes',price:450,image:jenes,status:'cool'},
-        {id:20,name:'Jenes',price:450,image:jenes,status:'hot'},*/
+        {id:17,name:'Laptop',price:45999,image:laptop,status:'cool'},
+       {id:18,name:'Teacups',price:450,image:teacup,status:'new'},
+        {id:19,name:'Skirt',price:450,image:skirt,status:'cool'},
+        {id:20,name:'HairDryer',price:450,image:hairdryer,status:'hot'}
         ]);
     return(
         <ProductsContext.Provider value={{products:[...products]}}>
